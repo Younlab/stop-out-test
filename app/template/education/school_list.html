@@ -1,0 +1,3 @@
+{% for school in schools %}
+<p><a href="{% url 'detail' school.id %}">{{ school.school_name }}</a></p>
+{% endfor %}
